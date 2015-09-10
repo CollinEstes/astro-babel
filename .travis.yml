@@ -1,4 +1,11 @@
 language: node_js
-
 node_js:
- - "0.12"
+- '0.12'
+deploy:
+  provider: npm
+  email: collin.j.estes@gmail.com
+  api_key:
+    secure: jkqyoUCCLKa91gOuyY2x9pBxxVeX/AeeOD5pkqOYY9ky9+S0SNLNwaEGvpsP7CDMEWJAtVE/oW6R7qnvx+yau15ShD1znanVmg746lnCz2DNDViCA6OkhtLMXsRxsFuQU75eSzQPAxhq1IeZugADtte6oqijdZ8arOKmXVcsZCdwuySfcXLwjDR+PxfkrCvzi3bq0H7SCdcaD+bdTD3tOdHEq0CC/3cG0o/hGKVcjsdVt9EgxC2urHCJ1qJ2yBrLmLdNLqRZHUuq/UqDu9yYruPDTVBll6MRhfEtgydvKenFg84Le501n3rFvj+W4wmDjHmuoYAGN2//0jwcS/UftY1nyF5TiVyleJ8Z8NNoH2zba6Hc23KMkYC3GhZqoJ0KJskaVaSkiIqsFuLZPyn+6lX5KtgfzuM+pHnVEaId7S2w/zGkE7i8O3KO/bC32E7TWZgBNBEBFI15xoFs5y3tdlCfTXlG4lpFyIpWp5U2jlLrCQ0ADrW0bD9upYXcq1ZSVywLTFeELhIABUW3qfAYa2yOrRR+jwljxbYb31zwYzQvGi6sV6DqdW9l28V/3tLGUPdMZDbLcOlcZpkYjixCFTQQOtunHEJ51+vIlWCmu8PbhjdYKMTXpxc1SCQDBhEfAgsmd2cAoSmh48JRinjWwAN4ldikkAw0xB/tSW8Qt5w=
+  on:
+    tags: true
+    repo: CollinEstes/astro-babel
